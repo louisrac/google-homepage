@@ -26,13 +26,20 @@
 
 #logo {
    display: flex;
-   padding-bottom: 60px;
+   padding-bottom: 50px;
    height: 97;
    width: 272;
 
 }
 
 /* Searchbar */
-.searchbar {
+#searchbar {
+	height: 40px;
+	width: 32em;
+	border-radius: 25px;
+	border: 1px solid #dfe1e5
+	padding-bottom: 30px;
 	
+
+
 }
