@@ -1,7 +1,37 @@
-/* Logo */
-#logo {
+/* Center */
+
+.centerbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 	justify-content: center;
 	align-items: center;
-	padding-top: 12em;
+	flex-direction: column;
+	height: 70vh;
+
+}
+
+.centeritem {
+	border-top: 5px;
+	align-self: center;
+
+}
+
+#logo {
+   display: flex;
+   padding-bottom: 50px;
+   height: 97;
+   width: 272;
+
+}
+
+/* Searchbar */
+.searchbar {
+	
 }
