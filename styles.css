@@ -1,5 +1,9 @@
 /* Center */
 
+body {
+	font-family: sans-serif; 
+}
+
 .centerbox {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -19,14 +23,14 @@
 }
 
 .centeritem {
-	border-top: 5px;
+	border-top: 2px;
 	align-self: center;
 
 }
 
 #logo {
    display: flex;
-   padding-bottom: 50px;
+   padding-bottom: 35px;
    height: 97;
    width: 272;
 
@@ -38,8 +42,38 @@
 	width: 32em;
 	border-radius: 25px;
 	border: 1px solid #dfe1e5
-	
-	
 
+}
+
+#searchbar:hover {
+	-webkit-box-shadow: 3px 6px 7px -3px #ccc;
+}
+
+#googlesearch {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px
+	color #5F6368;
+	display: block;
+	position: absolute;
+	height: 36px;
+	min-width: 54px;
+	margin: 11px 5em;
+	padding-left: 16px;
+}
+
+#feelinglucky {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px
+	color #5F6368;
+	display: block;
+	float: right;
+	position: relative;
+	height: 36px;
+	min-width: 60px;
+	margin: 9px 5em;
+	line-height: 27px;
+	align-items: center;
 
 }
