@@ -1,7 +1,7 @@
 /* Center */
 
 body {
-	font-family: sans-serif; 
+	font-family: arial,sans-serif; 
 }
 
 .centerbox {
@@ -58,8 +58,10 @@ body {
 	position: absolute;
 	height: 36px;
 	min-width: 54px;
-	margin: 11px 5em;
+	margin: 25px 107px;
 	padding-left: 16px;
+	font-size: 14px;
+	font-family: arial,sans-serif; 
 }
 
 #feelinglucky {
@@ -72,8 +74,10 @@ body {
 	position: relative;
 	height: 36px;
 	min-width: 60px;
-	margin: 9px 5em;
+	margin: 25px 107px;
 	line-height: 27px;
 	align-items: center;
+	font-size: 14px;
+	font-family: arial,sans-serif; 
 
 }
