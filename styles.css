@@ -88,10 +88,17 @@ a {
 	position: absolute;
 	height: 36px;
 	min-width: 54px;
-	margin: 25px 107px;
+	margin: 25px 90px;
 	padding-left: 16px;
 	font-size: 14px;
 	font-family: arial,sans-serif; 
+}
+
+#googlesearch:hover {
+	box-shadow: 0 1px 1px #0000001a;
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222
 }
 
 #feelinglucky {
@@ -100,15 +107,20 @@ a {
 	border-radius: 4px
 	color #5F6368;
 	display: block;
-	float: right;
-	position: relative;
+	position: absolute;
 	height: 36px;
-	min-width: 60px;
-	margin: 25px 107px;
-	line-height: 27px;
-	align-items: center;
+	min-width: 54px;
+	margin: 25px 235px;
+	padding-left: 16px;
 	font-size: 14px;
 	font-family: arial,sans-serif; 
 
+}
+
+#feelinglucky:hover {
+	box-shadow: 0 1px 1px #0000001a;
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222
 }
 
